@@ -1,0 +1,72 @@
+.quiz_container {
+    max-height: 450px;
+    flex: 2;
+    padding: 30px;
+    background-color: #FCFCFD;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.question_heading {
+    font-size: 24px;
+    font-weight: 800;
+    color: #393E43;
+    padding: 10px 0px;
+}
+
+.btn_group {
+    width: 100%;
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.btn_group>button,
+.submit_btn {
+    padding: .5rem 2rem;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.1);
+    border: none;
+    background-color: #F7323C;
+    color: #fff;
+    font-weight: 600;
+}
+
+.submit_btn {
+    background-color: #393E43;
+    margin: 16px 0px;
+    transition: all 0.3s;
+}
+
+.border_color:hover {
+    background-color: transparent;
+    border: 1px solid #393E43;
+    color: #393E43;
+}
+
+.btn_group>button:first-child {
+    margin-right: 20px;
+}
+
+.btn_disable {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.submitBox {
+    width: 100%;
+    text-align: right;
+}
+
+.select_radio {
+    background-color: pink;
+    width: 60%;
+    padding: 4px;
+    border-radius: 20px;
+    color: #fff;
+}
