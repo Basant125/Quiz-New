@@ -26,10 +26,10 @@ export const Question = [
     },
     {
         id: 4,
-        question: "Which of the following keywords is used to define a variable in Javascript?",
-        options: ["let", 'string', "number", "None of the above"],
-        answer: "let",
+        question: "What keyword is used to check whether a given property is valid or not?",
+        options: ["in", 'is in', "exists", "lies"],
+        answer: "in",
+        userAnswer: '',
         checked: false,
-        userAnswer: ''
     },
 ]

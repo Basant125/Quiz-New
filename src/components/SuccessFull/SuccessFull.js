@@ -20,7 +20,7 @@ const SuccessFull = ({ open, handleClose }) => {
         for (let i = 0; i < state.length; i++) {
             if (state[i].userAnswer === state[i].answer) {
                 correct += 1;
-                score += 33.33
+                score += 25
             }
             if (state[i].userAnswer !== '') {
                 attempt += 1
@@ -48,14 +48,14 @@ const SuccessFull = ({ open, handleClose }) => {
                         <h1>SuccessFully Submitted</h1>
                     </div>
                     <div className="modal_box_info">
-                        <div><p>Question Asked    :</p> <p className="value">{state.length}</p></div>
-                        <div><p>Question Attempt    :</p> <p className="value">{data?.attempt}</p></div>
-                        <div><p>Question Correct  :</p> <p className="value">{data?.correct}</p></div>
+                        <div><p>Question Asked:</p> <p className="value">{state.length}</p></div>
+                        <div><p>Question Attempt:</p> <p className="value">{data?.attempt}</p></div>
+                        <div><p>Question Correct:</p> <p className="value">{data?.correct}</p></div>
                         <div className="score_text">
                             <p>Your Score        : </p> <p>{data?.score}%</p>
                         </div>
                     </div>
-                    <button className="submit_btn" onClick={handleCancel}>Done</button>
+                    <button className="submit_btn done_btn" onClick={handleCancel}>Done</button>
                 </div>
             </Box>
         </Modal>

@@ -84,19 +84,27 @@
     color: #393E43;
 }
 
+.done_btn {
+    padding: .8rem 2.5rem !important;
+}
+
 @media screen and (max-width: 768px) {
     .modal_box {
         min-width: 90%;
     }
 
     .modal_box_info p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .cancel_btn {
         right: 10px;
         top: 10px;
         font-size: 30px !important;
+    }
+
+    .modal_box_header>h1 {
+        font-size: 24px;
     }
 }
 

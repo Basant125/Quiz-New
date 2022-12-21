@@ -1,5 +1,5 @@
 .answer_container {
-    max-height: 450px;
+    min-height: 400px;
     position: relative;
     flex: 1;
     padding: 20px;
@@ -75,4 +75,10 @@
 
 .no_answer {
     color: #393E43;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 8px 14px;
+    border: 1px solid #888;
+    border-radius: 20px;
+
 }
